@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1060" width="1700" height="1060"><style>
+svg{background:#fff;font-family:Arimo,Helvetica,Arial,sans-serif}
+.sheet{fill:none;stroke:#111;stroke-width:1.2}.ol{fill:#fff;stroke:#111;stroke-width:1.4}
+.grp{fill:none;stroke:#555;stroke-width:.8;stroke-dasharray:5 3}.sl{fill:#ececec;stroke:#333;stroke-width:.8}
+.x{stroke:#666;stroke-width:.7}.ext{stroke:#777;stroke-width:.5}.dl{stroke:#111;stroke-width:.6}
+.cl{stroke:#888;stroke-width:.5;stroke-dasharray:12 3 2 3}.lead{fill:none;stroke:#111;stroke-width:.6}
+.dot{fill:#111}.thin{fill:none;stroke:#111;stroke-width:.6}.layer{fill:#fff;stroke:#111;stroke-width:.8}
+.hatch{fill:url(#hatch);stroke:#666;stroke-width:.5}.nb{fill:#fff;stroke:#111;stroke-width:.7}
+text{fill:#111}.dt{font-size:10px;letter-spacing:.4px}.dts{font-size:9px;fill:#444}.slt{font-size:8.5px;fill:#333;letter-spacing:.6px}
+.vt{font-size:11px;font-weight:700;letter-spacing:1.2px}.nt{font-size:10px;letter-spacing:.3px}.nth{font-size:11px;font-weight:700}
+.th{font-size:9px;font-weight:700}.tc{font-size:9.5px}.tbt{font-size:22px;font-weight:300;letter-spacing:3px}.tbk{font-size:7.5px;fill:#555}
+</style><defs><marker id="arr" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#111"/></marker><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#999" stroke-width=".7"/></pattern></defs>
+<rect class="sheet p0 s" x="20" y="20" width="1660" height="1000" rx="16" pathLength="1"/>
+<text class="nth p1 f" x="50" y="60">NOTES:</text>
+<text class="nt p1 f" x="108" y="60">(UNLESS OTHERWISE SPECIFIED)</text>
+<rect class="nb p1 s" x="50" y="80" width="12" height="12" pathLength="1"/>
+<text class="dts p1 f" x="56" y="89.5" text-anchor="middle">1</text>
+<text class="nt p1 f" x="72" y="90">DO NOT SCALE DRAWING.</text>
+<rect class="nb p1 s" x="50" y="102" width="12" height="12" pathLength="1"/>
+<text class="dts p1 f" x="56" y="111.5" text-anchor="middle">2</text>
+<text class="nt p1 f" x="72" y="112">DIMENSIONS IN CSS PX, MEASURED IN A 1280 PX VIEWPORT.</text>
+<rect class="nb p1 s" x="50" y="124" width="12" height="12" pathLength="1"/>
+<text class="dts p1 f" x="56" y="133.5" text-anchor="middle">3</text>
+<text class="nt p1 f" x="72" y="134">SLOTS ARE PLACEHOLDERS; COPY AND CONTENT ARE OUT OF SCOPE.</text>
+<rect class="nb p1 s" x="50" y="146" width="12" height="12" pathLength="1"/>
+<text class="dts p1 f" x="56" y="155.5" text-anchor="middle">4</text>
+<text class="nt p1 f" x="72" y="156">HUG = SIZED BY CONTENT. FLEX = TAKES REMAINING SPACE. FILL = PARENT WIDTH.</text>
+<rect class="nb p1 s" x="50" y="168" width="12" height="12" pathLength="1"/>
+<text class="dts p1 f" x="56" y="177.5" text-anchor="middle">5</text>
+<text class="nt p1 f" x="72" y="178">CODES REFER TO THE TABLES; DERIVED VALUES ARE GIVEN AS FORMULAS.</text>
+<rect class="nb p1 s" x="50" y="190" width="12" height="12" pathLength="1"/>
+<text class="dts p1 f" x="56" y="199.5" text-anchor="middle">6</text>
+<text class="nt p1 f" x="72" y="200">VALUES NOT FOUND IN THE SOURCE ARE [TBD]. GRAYSCALE ONLY.</text>
+<text class="vt p2 f" x="860" y="678.7" text-anchor="middle">PLAN VIEW</text>
+<text class="dts p2 f" x="860" y="692.7" text-anchor="middle">SCALE 1.25 : 1</text>
+<line class="cl p2 s" x1="860" y1="159.3" x2="860" y2="600.7" pathLength="1"/>
+<line class="cl p2 s" x1="546" y1="380" x2="1174" y2="380" pathLength="1"/>
+<rect class="ol p2 s" x="560" y="173.3" width="600" height="413.4" rx="20" pathLength="1"/>
+<rect class="grp p3 s" x="560" y="173.3" width="600" height="81.2" rx="0" pathLength="1"/>
+<rect class="sl p3 s" x="590" y="197.9" width="495" height="30.8" rx="0" pathLength="1"/>
+<rect class="sl p3 s" x="1100" y="193.3" width="40" height="40" rx="20" pathLength="1"/>
+<rect class="grp p3 s" x="560" y="254.6" width="600" height="247.1" rx="0" pathLength="1"/>
+<rect class="grp p3 s" x="590" y="284.6" width="540" height="81" rx="0" pathLength="1"/>
+<rect class="sl p3 s" x="590" y="284.6" width="540" height="23.5" rx="0" pathLength="1"/>
+<rect class="sl p3 s" x="590" y="315.6" width="540" height="50" rx="12.5" pathLength="1"/>
+<rect class="grp p3 s" x="590" y="390.6" width="540" height="81" rx="0" pathLength="1"/>
+<rect class="sl p3 s" x="590" y="390.6" width="540" height="23.5" rx="0" pathLength="1"/>
+<rect class="sl p3 s" x="590" y="421.7" width="540" height="50" rx="12.5" pathLength="1"/>
+<rect class="grp p3 s" x="560" y="501.7" width="600" height="85" rx="0" pathLength="1"/>
+<rect class="sl p3 s" x="884.5" y="521.7" width="99.8" height="45" rx="12.5" pathLength="1"/>
+<rect class="sl p3 s" x="994.4" y="521.7" width="135.6" height="45" rx="12.5" pathLength="1"/>
+<text class="slt p3 f" x="837.5" y="216.3" text-anchor="middle">TITLE SLOT · FLEX</text>
+<text class="slt p3 f" x="860" y="299.3" text-anchor="middle">LABEL SLOT · FILL</text>
+<text class="slt p3 f" x="860" y="343.6" text-anchor="middle">INPUT · FILL</text>
+<text class="slt p3 f" x="860" y="405.3" text-anchor="middle">LABEL SLOT · FILL</text>
+<text class="slt p3 f" x="860" y="449.7" text-anchor="middle">INPUT · FILL</text>
+<text class="slt p3 f" x="934.4" y="547.2" text-anchor="middle">ACTION</text>
+<text class="slt p3 f" x="1062.2" y="547.2" text-anchor="middle">ACTION · HUG</text>
+<line class="ext p4 s" x1="560" y1="170.3" x2="560" y2="102.3" pathLength="1"/>
+<line class="ext p4 s" x1="1160" y1="170.3" x2="1160" y2="102.3" pathLength="1"/>
+<line class="dl p4 f" x1="560" y1="107.3" x2="1160" y2="107.3" marker-start="url(#arr)" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="860" y="103.3" text-anchor="middle">W = 480</text>
+<line class="ext p4 s" x1="557" y1="173.3" x2="521" y2="173.3" pathLength="1"/>
+<line class="ext p4 s" x1="557" y1="254.6" x2="521" y2="254.6" pathLength="1"/>
+<line class="dl p4 f" x1="526" y1="173.3" x2="526" y2="254.6" marker-start="url(#arr)" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="520" y="217.4" text-anchor="end">H1</text>
+<line class="ext p4 s" x1="557" y1="254.6" x2="521" y2="254.6" pathLength="1"/>
+<line class="ext p4 s" x1="557" y1="501.7" x2="521" y2="501.7" pathLength="1"/>
+<line class="dl p4 f" x1="526" y1="254.6" x2="526" y2="501.7" marker-start="url(#arr)" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="520" y="381.6" text-anchor="end">H3</text>
+<line class="ext p4 s" x1="557" y1="501.7" x2="521" y2="501.7" pathLength="1"/>
+<line class="ext p4 s" x1="557" y1="586.7" x2="521" y2="586.7" pathLength="1"/>
+<line class="dl p4 f" x1="526" y1="501.7" x2="526" y2="586.7" marker-start="url(#arr)" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="520" y="547.7" text-anchor="end">H5</text>
+<line class="ext p4 s" x1="1163" y1="173.3" x2="1205" y2="173.3" pathLength="1"/>
+<line class="ext p4 s" x1="1163" y1="586.7" x2="1205" y2="586.7" pathLength="1"/>
+<line class="dl p4 f" x1="1200" y1="173.3" x2="1200" y2="586.7" marker-start="url(#arr)" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="1206" y="383.5" text-anchor="start">(REF 330.7)</text>
+<line class="ext p4 s" x1="590" y1="231.7" x2="590" y2="631.7" pathLength="1"/>
+<line class="ext p4 s" x1="1085" y1="231.7" x2="1085" y2="631.7" pathLength="1"/>
+<line class="dl p4 f" x1="590" y1="626.7" x2="1085" y2="626.7" marker-start="url(#arr)" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="837.5" y="639.7" text-anchor="middle">FLEX</text>
+<line class="dl p4 f" x1="1072" y1="648.7" x2="1085" y2="648.7" marker-end="url(#arr)" pathLength="1"/>
+<line class="dl p4 f" x1="1113" y1="648.7" x2="1100" y2="648.7" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="1092.5" y="661.7" text-anchor="middle">S3</text>
+<line class="ext p4 s" x1="1100" y1="236.3" x2="1100" y2="631.7" pathLength="1"/>
+<line class="ext p4 s" x1="1140" y1="236.3" x2="1140" y2="631.7" pathLength="1"/>
+<line class="dl p4 f" x1="1100" y1="626.7" x2="1140" y2="626.7" marker-start="url(#arr)" marker-end="url(#arr)" pathLength="1"/>
+<text class="dt p4 f" x="1120" y="639.7" text-anchor="middle">H2 · HUG</text>
+<circle class="dot p5 s" cx="1154.1" cy="179.2" r="1.8" pathLength="1"/>
+<polyline class="lead p5 s" points="1154.1,179.2 1270.0,179.2 1280.0,179.2" pathLength="1"/>
+<text class="dt p5 f" x="1284" y="182.7" text-anchor="start">R1  R16</text>
+<circle class="dot p5 s" cx="1126.3" cy="319.2" r="1.8" pathLength="1"/>
+<polyline class="lead p5 s" points="1126.3,319.2 1270.0,319.2 1280.0,319.2" pathLength="1"/>
+<text class="dt p5 f" x="1284" y="322.7" text-anchor="start">R2  R10</text>
+<rect class="nb p5 s" x="1170" y="155.3" width="12" height="12" pathLength="1"/>
+<text class="dts p5 f" x="1176" y="164.8" text-anchor="middle">2</text>
+<rect class="nb p5 s" x="773.3" y="207.3" width="12" height="12" pathLength="1"/>
+<text class="dts p5 f" x="779.3" y="216.8" text-anchor="middle">3</text>
+<text class="vt p6 f" x="395" y="732" text-anchor="middle">EXPLODED VIEW · LAYERS</text>
+<polygon class="thin p6 s" points="210.0,960.0 460.0,960.0 580.0,906.0 330.0,906.0" pathLength="1"/>
+<circle class="dot p6 s" cx="216" cy="956" r="1.8" pathLength="1"/>
+<polyline class="lead p6 s" points="216.0,956.0 180.0,956.0 170.0,956.0" pathLength="1"/>
+<text class="dt p6 f" x="166" y="959.5" text-anchor="end">CANVAS</text>
+<polygon class="hatch p6 s" points="210.0,914.0 460.0,914.0 580.0,860.0 330.0,860.0" pathLength="1"/>
+<circle class="dot p6 s" cx="216" cy="910" r="1.8" pathLength="1"/>
+<polyline class="lead p6 s" points="216.0,910.0 180.0,910.0 170.0,910.0" pathLength="1"/>
+<text class="dt p6 f" x="166" y="913.5" text-anchor="end">SHADOW</text>
+<polygon class="layer p6 s" points="210.0,868.0 460.0,868.0 580.0,814.0 330.0,814.0" pathLength="1"/>
+<circle class="dot p6 s" cx="216" cy="864" r="1.8" pathLength="1"/>
+<polyline class="lead p6 s" points="216.0,864.0 180.0,864.0 170.0,864.0" pathLength="1"/>
+<text class="dt p6 f" x="166" y="867.5" text-anchor="end">CONTAINER</text>
+<polygon class="layer p6 s" points="210.0,822.0 460.0,822.0 580.0,768.0 330.0,768.0" pathLength="1"/>
+<polygon class="sl p6 s" points="326.4,775.2 532.7,775.2 541.6,771.2 335.4,771.2" pathLength="1"/>
+<polygon class="sl p6 s" points="537.6,775.8 554.2,775.8 565.9,770.6 549.2,770.6" pathLength="1"/>
+<polygon class="sl p6 s" points="303.4,785.6 528.4,785.6 535.2,782.5 310.2,782.5" pathLength="1"/>
+<polygon class="sl p6 s" points="286.7,793.1 511.7,793.1 526.2,786.6 301.2,786.6" pathLength="1"/>
+<polygon class="sl p6 s" points="272.6,799.4 497.6,799.4 504.4,796.4 279.4,796.4" pathLength="1"/>
+<polygon class="sl p6 s" points="255.9,807.0 480.9,807.0 495.4,800.4 270.4,800.4" pathLength="1"/>
+<polygon class="sl p6 s" points="351.0,819.4 392.6,819.4 405.6,813.5 364.1,813.5" pathLength="1"/>
+<polygon class="sl p6 s" points="396.8,819.4 453.3,819.4 466.4,813.5 409.9,813.5" pathLength="1"/>
+<circle class="dot p6 s" cx="216" cy="818" r="1.8" pathLength="1"/>
+<polyline class="lead p6 s" points="216.0,818.0 180.0,818.0 170.0,818.0" pathLength="1"/>
+<text class="dt p6 f" x="166" y="821.5" text-anchor="end">SLOTS &amp; CONTROLS</text>
+<text class="vt p7 f" x="1340" y="62">SPACING</text>
+<rect class="thin p7 s" x="1340" y="70" width="44" height="17" pathLength="1"/>
+<text class="th p7 f" x="1346" y="82">CODE</text>
+<rect class="thin p7 s" x="1384" y="70" width="132" height="17" pathLength="1"/>
+<text class="th p7 f" x="1390" y="82">VARIABLE</text>
+<rect class="thin p7 s" x="1516" y="70" width="84" height="17" pathLength="1"/>
+<text class="th p7 f" x="1522" y="82">VALUE</text>
+<rect class="thin p7 s" x="1340" y="87" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="99">S1</text>
+<rect class="thin p7 s" x="1384" y="87" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="99">group pad-top</text>
+<rect class="thin p7 s" x="1516" y="87" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="99">16</text>
+<rect class="thin p7 s" x="1340" y="104" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="116">S2</text>
+<rect class="thin p7 s" x="1384" y="104" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="116">group pad-left</text>
+<rect class="thin p7 s" x="1516" y="104" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="116">24</text>
+<rect class="thin p7 s" x="1340" y="121" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="133">S3</text>
+<rect class="thin p7 s" x="1384" y="121" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="133">group inline gap</text>
+<rect class="thin p7 s" x="1516" y="121" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="133">12</text>
+<rect class="thin p7 s" x="1340" y="138" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="150">S4</text>
+<rect class="thin p7 s" x="1384" y="138" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="150">action pad-top</text>
+<rect class="thin p7 s" x="1516" y="138" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="150">1</text>
+<rect class="thin p7 s" x="1340" y="155" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="167">S5</text>
+<rect class="thin p7 s" x="1384" y="155" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="167">action pad-right</text>
+<rect class="thin p7 s" x="1516" y="155" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="167">6</text>
+<rect class="thin p7 s" x="1340" y="172" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="184">S6</text>
+<rect class="thin p7 s" x="1384" y="172" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="184">group stack gap</text>
+<rect class="thin p7 s" x="1516" y="172" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="184">20</text>
+<rect class="thin p7 s" x="1340" y="189" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="201">S7</text>
+<rect class="thin p7 s" x="1384" y="189" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="201">group inline gap</text>
+<rect class="thin p7 s" x="1516" y="189" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="201">8</text>
+<rect class="thin p7 s" x="1340" y="206" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="218">S8</text>
+<rect class="thin p7 s" x="1384" y="206" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="218">action pad-right</text>
+<rect class="thin p7 s" x="1516" y="206" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="218">18</text>
+<text class="vt p7 f" x="1340" y="249">SIZE</text>
+<rect class="thin p7 s" x="1340" y="257" width="44" height="17" pathLength="1"/>
+<text class="th p7 f" x="1346" y="269">CODE</text>
+<rect class="thin p7 s" x="1384" y="257" width="132" height="17" pathLength="1"/>
+<text class="th p7 f" x="1390" y="269">VARIABLE</text>
+<rect class="thin p7 s" x="1516" y="257" width="84" height="17" pathLength="1"/>
+<text class="th p7 f" x="1522" y="269">VALUE</text>
+<rect class="thin p7 s" x="1340" y="274" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="286">H1</text>
+<rect class="thin p7 s" x="1384" y="274" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="286">group height</text>
+<rect class="thin p7 s" x="1516" y="274" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="286">65</text>
+<rect class="thin p7 s" x="1340" y="291" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="303">H2</text>
+<rect class="thin p7 s" x="1384" y="291" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="303">action height</text>
+<rect class="thin p7 s" x="1516" y="291" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="303">32</text>
+<rect class="thin p7 s" x="1340" y="308" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="320">H3</text>
+<rect class="thin p7 s" x="1384" y="308" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="320">group height</text>
+<rect class="thin p7 s" x="1516" y="308" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="320">197.7</text>
+<rect class="thin p7 s" x="1340" y="325" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="337">H4</text>
+<rect class="thin p7 s" x="1384" y="325" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="337">input height</text>
+<rect class="thin p7 s" x="1516" y="325" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="337">40</text>
+<rect class="thin p7 s" x="1340" y="342" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="354">H5</text>
+<rect class="thin p7 s" x="1384" y="342" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="354">group height</text>
+<rect class="thin p7 s" x="1516" y="342" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="354">68</text>
+<rect class="thin p7 s" x="1340" y="359" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="371">H6</text>
+<rect class="thin p7 s" x="1384" y="359" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="371">action height</text>
+<rect class="thin p7 s" x="1516" y="359" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="371">36</text>
+<text class="vt p7 f" x="1340" y="402">RADIUS</text>
+<rect class="thin p7 s" x="1340" y="410" width="44" height="17" pathLength="1"/>
+<text class="th p7 f" x="1346" y="422">CODE</text>
+<rect class="thin p7 s" x="1384" y="410" width="132" height="17" pathLength="1"/>
+<text class="th p7 f" x="1390" y="422">VARIABLE</text>
+<rect class="thin p7 s" x="1516" y="410" width="84" height="17" pathLength="1"/>
+<text class="th p7 f" x="1522" y="422">VALUE</text>
+<rect class="thin p7 s" x="1340" y="427" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="439">R1</text>
+<rect class="thin p7 s" x="1384" y="427" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="439">container radius</text>
+<rect class="thin p7 s" x="1516" y="427" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="439">16</text>
+<rect class="thin p7 s" x="1340" y="444" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="456">R2</text>
+<rect class="thin p7 s" x="1384" y="444" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="456">input radius</text>
+<rect class="thin p7 s" x="1516" y="444" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="456">10</text>
+<text class="vt p7 f" x="1340" y="487">CONTAINER</text>
+<rect class="thin p7 s" x="1340" y="495" width="44" height="17" pathLength="1"/>
+<text class="th p7 f" x="1346" y="507">CODE</text>
+<rect class="thin p7 s" x="1384" y="495" width="132" height="17" pathLength="1"/>
+<text class="th p7 f" x="1390" y="507">VARIABLE</text>
+<rect class="thin p7 s" x="1516" y="495" width="84" height="17" pathLength="1"/>
+<text class="th p7 f" x="1522" y="507">VALUE</text>
+<rect class="thin p7 s" x="1340" y="512" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="524">B</text>
+<rect class="thin p7 s" x="1384" y="512" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="524">border</text>
+<rect class="thin p7 s" x="1516" y="512" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="524">0</text>
+<rect class="thin p7 s" x="1340" y="529" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="541">W</text>
+<rect class="thin p7 s" x="1384" y="529" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="541">width</text>
+<rect class="thin p7 s" x="1516" y="529" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="541">480</text>
+<rect class="thin p7 s" x="1340" y="546" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="558">W-MIN</text>
+<rect class="thin p7 s" x="1384" y="546" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="558">min-width</text>
+<rect class="thin p7 s" x="1516" y="546" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="558">[TBD]</text>
+<rect class="thin p7 s" x="1340" y="563" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="575">W-MAX</text>
+<rect class="thin p7 s" x="1384" y="563" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="575">max-width</text>
+<rect class="thin p7 s" x="1516" y="563" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="575">[TBD]</text>
+<text class="vt p7 f" x="1340" y="606">SHADOW</text>
+<rect class="thin p7 s" x="1340" y="614" width="44" height="17" pathLength="1"/>
+<text class="th p7 f" x="1346" y="626">CODE</text>
+<rect class="thin p7 s" x="1384" y="614" width="132" height="17" pathLength="1"/>
+<text class="th p7 f" x="1390" y="626">VARIABLE</text>
+<rect class="thin p7 s" x="1516" y="614" width="84" height="17" pathLength="1"/>
+<text class="th p7 f" x="1522" y="626">VALUE</text>
+<rect class="thin p7 s" x="1340" y="631" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="643">Y</text>
+<rect class="thin p7 s" x="1384" y="631" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="643">offset-y</text>
+<rect class="thin p7 s" x="1516" y="631" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="643">24</text>
+<rect class="thin p7 s" x="1340" y="648" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="660">BL</text>
+<rect class="thin p7 s" x="1384" y="648" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="660">blur</text>
+<rect class="thin p7 s" x="1516" y="648" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="660">48</text>
+<rect class="thin p7 s" x="1340" y="665" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="677">SP</text>
+<rect class="thin p7 s" x="1384" y="665" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="677">spread</text>
+<rect class="thin p7 s" x="1516" y="665" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="677">0</text>
+<rect class="thin p7 s" x="1340" y="682" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="694">E1</text>
+<rect class="thin p7 s" x="1384" y="682" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="694">envelope top</text>
+<rect class="thin p7 s" x="1516" y="682" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="694">BL+SP−Y = 24</text>
+<rect class="thin p7 s" x="1340" y="699" width="44" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1346" y="711">E3</text>
+<rect class="thin p7 s" x="1384" y="699" width="132" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1390" y="711">envelope bottom</text>
+<rect class="thin p7 s" x="1516" y="699" width="84" height="17" pathLength="1"/>
+<text class="tc p7 f" x="1522" y="711">BL+SP+Y = 72</text>
+<rect class="thin p8 s" x="1080" y="916" width="580" height="78" pathLength="1"/>
+<line class="thin p8 s" x1="1410" y1="916" x2="1410" y2="994" pathLength="1"/>
+<line class="thin p8 s" x1="1500" y1="916" x2="1500" y2="994" pathLength="1"/>
+<line class="thin p8 s" x1="1580" y1="916" x2="1580" y2="994" pathLength="1"/>
+<line class="thin p8 s" x1="1410" y1="955" x2="1660" y2="955" pathLength="1"/>
+<text class="tbt p8 f" x="1094" y="950">DIALOG</text>
+<text class="dts p8 f" x="1094" y="974">UI component reference · architecture only</text>
+<text class="tbk p8 f" x="1416" y="928">DWG NO.</text>
+<text class="tc p8 f" x="1416" y="944">UI-DIALOG-001</text>
+<text class="tbk p8 f" x="1506" y="928">UNITS</text>
+<text class="tc p8 f" x="1506" y="944">CSS PX</text>
+<text class="tbk p8 f" x="1586" y="928">REV</text>
+<text class="tc p8 f" x="1586" y="944">A</text>
+<text class="tbk p8 f" x="1416" y="967">SCALE</text>
+<text class="tc p8 f" x="1416" y="983">1.25:1</text>
+<text class="tbk p8 f" x="1506" y="967">SHEETS</text>
+<text class="tc p8 f" x="1506" y="983">1 OF 1</text>
+<text class="tbk p8 f" x="1586" y="967">SOURCE</text>
+<text class="tc p8 f" x="1586" y="983">dialog.html</text>
+<text class="dts p8 f" x="40" y="1038">2026-10-28 | UI COMPONENT REFERENCE</text>
+<text class="dts p8 f" x="1660" y="1038" text-anchor="end">DIALOG, ARCHITECTURE | 1</text>
+</svg>

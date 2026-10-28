@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Player widget</title>
+<style>
+  body { margin: 0; padding: 60px; background: #e4e4e7; font: 14px/1.4 system-ui, sans-serif; }
+  .player { width: 340px; box-sizing: border-box; padding: 8px; background: #fafafa; border: 1px solid #d4d4d8;
+            border-radius: 28px; box-shadow: 0 12px 32px rgba(0, 0, 0, .12); }
+  .art { height: 200px; border-radius: 19px; background: #a1a1aa; }
+  .meta { padding: 16px 12px 4px; display: flex; flex-direction: column; gap: 4px; }
+  .meta h4 { margin: 0; font-size: 15px; }
+  .meta span { color: #71717a; font-size: 13px; }
+  .bar { margin: 8px 12px; height: 4px; border-radius: 2px; background: #d4d4d8; }
+  .controls { padding: 8px 12px 12px; display: flex; align-items: center; justify-content: space-between; }
+  .controls button { width: 44px; height: 44px; border: 0; border-radius: 22px; background: #e4e4e7; }
+  .controls .play { width: 56px; height: 56px; border-radius: 28px; background: #18181b; }
+</style>
+</head>
+<body>
+  <section class="player">
+    <div class="art" role="img" aria-label="Cover"></div>
+    <div class="meta"><h4>Night drive</h4><span>Side B, track 3</span></div>
+    <div class="bar"></div>
+    <div class="controls"><button aria-label="Back"></button><button class="play" aria-label="Play"></button><button aria-label="Next"></button></div>
+  </section>
+</body>
+</html>

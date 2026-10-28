@@ -1,0 +1,9 @@
+dimsheet follows ideas and conventions from these MIT-licensed projects. No code was copied; the drawing helpers
+(dimension lines, callouts, note boxes, tables) were rewritten in Python after reading their JavaScript.
+
+- dimensional-drawing, Copyright (c) 2026 Enes Ozturk, https://github.com/enesozturk/dimensional-drawing
+  House rules, code system (S#, H#, Z#, R#, B, W, Y/BL/SP, E1/E3), sheet layout and the measuring recipe.
+- motion2code, Copyright (c) 2026 Lovis Odin, https://github.com/lovisdotio/motion2code
+  Motion as one self-contained, looping SVG timeline instead of a rendered video.
+
+Both are distributed under the MIT License, whose text is in LICENSE.

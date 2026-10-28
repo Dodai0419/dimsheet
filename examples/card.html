@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Card</title>
+<style>
+  body { margin: 0; padding: 60px; background: #f4f4f5; font: 14px/1.45 system-ui, sans-serif; color: #18181b; }
+  .card { width: 420px; min-width: 320px; max-width: 680px; box-sizing: border-box; padding: 24px; display: flex;
+          flex-direction: column; gap: 16px; background: #fff; border: 1px solid #e4e4e7; border-radius: 20px;
+          box-shadow: 0 8px 24px rgba(0, 0, 0, .08); }
+  .head { display: flex; align-items: center; gap: 12px; }
+  .avatar { width: 40px; height: 40px; border-radius: 12px; background: #d4d4d8; flex: none; }
+  .titles { flex: 1; min-width: 0; }
+  .titles h3 { margin: 0; font-size: 16px; }
+  .titles p { margin: 2px 0 0; color: #71717a; font-size: 13px; }
+  .close { width: 32px; height: 32px; border: 0; border-radius: 8px; background: #f4f4f5; flex: none; }
+  .body { margin: 0; }
+  .foot { display: flex; justify-content: flex-end; gap: 8px; }
+  .foot button { height: 36px; padding: 0 16px; border-radius: 18px; border: 1px solid #e4e4e7; background: #fff; font: inherit; }
+  .foot .primary { border-radius: 10px; background: #18181b; color: #fff; border-color: #18181b; }
+</style>
+</head>
+<body>
+  <article class="card">
+    <header class="head">
+      <div class="avatar"></div>
+      <div class="titles"><h3>Weekly report ready</h3><p>Generated 2 minutes ago</p></div>
+      <button class="close" aria-label="Close"></button>
+    </header>
+    <p class="body">Your team closed 14 issues and shipped two releases this week. Open the report to see what changed.</p>
+    <footer class="foot"><button>Later</button><button class="primary">Open report</button></footer>
+  </article>
+</body>
+</html>

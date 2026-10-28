@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dialog</title>
+<style>
+  body { margin: 0; padding: 60px; background: #d4d4d8; font: 14px/1.45 system-ui, sans-serif; color: #18181b; }
+  .dialog { width: 480px; box-sizing: border-box; background: #fff; border-radius: 16px; overflow: hidden;
+            box-shadow: 0 24px 48px rgba(0, 0, 0, .18); }
+  .top { display: flex; align-items: center; gap: 12px; padding: 16px 16px 16px 24px; border-bottom: 1px solid #e4e4e7; }
+  .top h2 { flex: 1; margin: 0; font-size: 17px; }
+  .top button { width: 32px; height: 32px; border: 0; border-radius: 16px; background: #f4f4f5; }
+  .form { padding: 24px; display: flex; flex-direction: column; gap: 20px; }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field label { font-size: 13px; color: #52525b; }
+  .field input { height: 40px; box-sizing: border-box; padding: 0 12px; border: 1px solid #d4d4d8; border-radius: 10px; font: inherit; }
+  .actions { display: flex; justify-content: flex-end; gap: 8px; padding: 16px 24px; background: #fafafa; }
+  .actions button { height: 36px; padding: 0 18px; border-radius: 10px; border: 1px solid #d4d4d8; background: #fff; font: inherit; }
+  .actions .primary { background: #18181b; color: #fff; border-color: #18181b; }
+</style>
+</head>
+<body>
+  <div class="dialog" role="dialog" aria-label="Invite">
+    <div class="top"><h2>Invite a teammate</h2><button aria-label="Close"></button></div>
+    <div class="form">
+      <div class="field"><label>Email</label><input value="sam@example.com"></div>
+      <div class="field"><label>Role</label><input value="Editor"></div>
+    </div>
+    <div class="actions"><button>Cancel</button><button class="primary">Send invite</button></div>
+  </div>
+</body>
+</html>

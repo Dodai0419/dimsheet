@@ -1,0 +1,1 @@
+{"name": "dimsheet", "owner": {"name": "Dodai0419"}, "plugins": [{"name": "dimsheet", "source": "./", "description": "Turn any web component into an Apple-style dimensional drawing, measured from the real page, that draws itself."}]}
